@@ -3,7 +3,7 @@ services:
   dbos:
     image: mysql:5.7
     volumes:
-      -mysql_storage_new: /var/lib/mysql
+      -mysql_storage_new:/var/lib/mysql
     restart: always
     environment:
       MY_SQL_ROOT_PASSWORD: rootpass
@@ -16,14 +16,14 @@ services:
     depends_on: 
       -dbos
     ports:
-      - 8081:80
+      - 1234:80
     environment:
       WORDPRESS_DB-HOST: dbos
       WORDPRESS_DB_USER: rishikesh
       WORDPRESS_DB_PASSWORD: redhat  
       WORDPRESS_DB_NAME: mydb
     volumes:
-      -wp_storage_new: /var/www/html
+      -wp_storage_new:/var/www/html
 volumes:
   wp_storage_new:
   mysql_storage_new:
