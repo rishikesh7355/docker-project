@@ -25,3 +25,12 @@ docker :
  used for making Infrastucture as code 
  some syntax concepts of how to write YAML scripts 
  
+ First :pull images 
+ docker pull mysql :5.7
+ (Now we have to launch and make account on mysql database 
+ for this goto image description on dockerhub.com for entrypoint scripts 
+ check all environmental variables ) 
+ 
+ 
+ ![Screenshot (33)_LI](https://user-images.githubusercontent.com/54662528/82225264-9d0d3080-9942-11ea-88d2-7f2651893b8f.jpg)
+ 
