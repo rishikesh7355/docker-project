@@ -123,6 +123,24 @@ Similary,
 
 
 
+![Annotation 2020-05-17 235252](https://user-images.githubusercontent.com/54662528/82243049-8b388700-995c-11ea-995b-9db17d0c170c.png)
+
+
+
+
+9.Docker-compose up 
+
+-- if the file is correctly written it starts both the containers
+
+
+10. docker-compose ps (# to check the running containers )
+
+11.docker volume ls (# to check the linked volumes )
+
+
+
+
+
 ![Annotation 2020-05-17 234335](https://user-images.githubusercontent.com/54662528/82240821-b4571880-9958-11ea-8d48-7c4b458a1e5c.png)
 
 
@@ -134,16 +152,6 @@ Similary,
 --Choose the english language < give email, username and password 
 
 --and goto login and give the credentials what you made in the registration process
-
-9.Docker-compose up 
-
--- if the file is correctly written it starts both the containers
-
-
-10. docker-compose ps (# to check the running containers )
-
-11.docker volume ls (# to check the linked volumes )
-
 
 
 
