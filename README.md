@@ -4,10 +4,12 @@ Docker : It is set of PAAS(platform as a service )products for  creating and dep
 
 Docker Mutli -tier Infrastructure 
 
-Pre-requisites    :
+Pre-requisites:
+
 The following terms and technology should be known - 
 
-red hat linux (RHEL8) system installed
+red hat linux (RHEL8) system installed 
+
 Linux commands like mkdir ,ls ,volume,vim or gedit text editors ,about systemctl and networking commands etc 
 
 yum or dnf packages preinstalled
@@ -26,11 +28,18 @@ docker :
  some syntax concepts of how to write YAML scripts 
  
  First :pull images 
+ 
  1.docker pull mysql :5.7
- -- Now we have to launch and make account on mysql database 
- for this goto image description on dockerhub.com for entrypoint scripts 
+ 
+ -- Now we have to launch and make account on mysql database
+ 
+ for this goto image description on dockerhub.com for entrypoint scripts
+ 
  -- check all environmental variables
+ 
  --also to create all data permament create a separate folder 
+ 
+ 
  2.docker volume create mysql_storage 
  
  
@@ -114,10 +123,26 @@ Similary,
 
 
 
-![Annotation 2020-05-17 235252](https://user-images.githubusercontent.com/54662528/82236192-65f24b80-9951-11ea-9c98-c5ed0a5bc76d.png)
+![Annotation 2020-05-17 234335](https://user-images.githubusercontent.com/54662528/82240821-b4571880-9958-11ea-8d48-7c4b458a1e5c.png)
 
 
 
+--Now anyone has access to our website by just knowing IP and port number 
+
+--goto browser and type the IP and port number as shown below 
+
+--Choose the english language < give email, username and password 
+
+--and goto login and give the credentials what you made in the registration process
+
+9.Docker-compose up 
+
+-- if the file is correctly written it starts both the containers
+
+
+10. docker-compose ps (# to check the running containers )
+
+11.docker volume ls (# to check the linked volumes )
 
 
 
@@ -125,6 +150,10 @@ Similary,
 
 ![Annotation 2020-05-17 215405](https://user-images.githubusercontent.com/54662528/82236226-6e4a8680-9951-11ea-8b13-a87cd8fd103d.png)
 
+
+
+
+-- Write your blog what you want to publish  and anyone can see around the world
 
 
 ![Annotation 2020-05-17 215534](https://user-images.githubusercontent.com/54662528/82236258-77d3ee80-9951-11ea-9f0a-898eac8fc9cd.png)
