@@ -2,7 +2,7 @@
 
 Docker : It is set of PAAS(platform as a service )products for  creating and deploying images as anywhere very fastly using container technology 
 
-Docker Mutli -tier Infrastructure 
+Docker Mutli -tier Architechture 
 
 Pre-requisites:
 
